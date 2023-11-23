@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"
+    integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../src/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="../src/index.css">
+  <title>Websocket-sample</title>
+</head>
+
+<body>
+  <header class="container">
+    <hgroup>
+      <h1>Websocket Basic App</h1>
+      <h2>A basic websocket app to connect and broadcast messages in real time.</h2>
+    </hgroup>
+  </header>
+  <div class="container">
+    <input id="input" type="text" name="message" placeholder="Enter Message" required />
+    <button id="submit" type="submit" onclick="submitMessage()">Broadcast</button>
+    <ul>
+    </ul>
+  </div>
+  <noscript>
+    Please enable JavaScript to view this site.
+  </noscript>
+</body>
+
+
+</html>
