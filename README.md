@@ -5,7 +5,7 @@ Node js basic Application using socket.io library to serve messages to multiple 
 ![Alt text](./demo/image.png)
 
 ## Pre-requisites
-* Nodejs
+* Node.js
 
 ### Clone the repository
 
