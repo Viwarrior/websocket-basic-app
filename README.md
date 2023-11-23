@@ -10,7 +10,7 @@ Node js basic Application using socket.io library to serve messages to multiple 
 ### Clone the repository
 
 ```
-git clone [https://github.com/Viwarrior/websocket-impl-sample.git](https://github.com/Viwarrior/websocket-basic-app.git)
+git clone https://github.com/Viwarrior/websocket-basic-app.git
 ```
 
 ### Install dependencies
